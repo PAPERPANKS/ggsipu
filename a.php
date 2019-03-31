@@ -587,7 +587,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 	  </ol>
 	  <div class="carousel-inner" role="listbox">
 		<div class="item active">
-		  <img class="first-slide" src="data0/images/1.jpg" alt="First slide" style="width:100%; height:auto;">
+		  <img class="first-slide" src="data0/images/1.JPG" alt="First slide" style="width:100%; height:auto;">
 		  <div class="container capnone">
 			<div class="carousel-caption">
 			  <h1></h1>
@@ -596,7 +596,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 		  </div>
 		</div>
 		<div class="item">
-		  <img class="second-slide" src="data0/images/2.jpg" alt="Second slide" style="width:950; height:400;">
+		  <img class="second-slide" src="data0/images/2.JPG" alt="Second slide" style="width:950; height:400;">
 		  <div class="container capnone">
 			<div class="carousel-caption">
 			  <h1></h1>
@@ -614,7 +614,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 		  </div>
 		</div>
 		  <div class="item">
-		  <img class="third-slide" src="data0/images/4.jpg" alt="Third slide" style="width:950; height:400;">
+		  <img class="third-slide" src="data0/images/4.JPG" alt="Third slide" style="width:950; height:400;">
 		  <div class="container capnone">
 			<div class="carousel-caption">
 			  <h1></h1>
@@ -623,7 +623,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 		  </div>
 		</div>
 		  <div class="item">
-		  <img class="third-slide" src="data0/images/5.jpg" alt="Third slide" style="width:950; height:400;">
+		  <img class="third-slide" src="data0/images/5.JPG" alt="Third slide" style="width:950; height:400;">
 		  <div class="container capnone">
 			<div class="carousel-caption">
 			  <h1></h1>
@@ -632,7 +632,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 		  </div>
 		</div>
 		  <div class="item">
-		  <img class="third-slide" src="data0/images/6.jpg" alt="Third slide" style="width:950; height:400;">
+		  <img class="third-slide" src="data0/images/6.JPG" alt="Third slide" style="width:950; height:400;">
 		  <div class="container capnone">
 			<div class="carousel-caption">
 			  <h1></h1>
