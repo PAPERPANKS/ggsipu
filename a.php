@@ -34,17 +34,41 @@
 	font-size: 1.3em;
 	margin-right: 1px;
 }
+#fb:hover{
+	color:rgb(59, 89, 152) !important;
+}
+#tw:hover{
+	color:#38A1F3 !important;
+}
+#gp:hover{
+	color:#DD4B39 !important;
+}
+#ln:hover {
+	color:#0077B5 !important;
+}
 #events_panel .panel-heading {
 	background-color:#00164A;
 	color:#fff;
 }
 #alerts_panel .panel-heading {
-	background-color:#00164A;
+	background-color:#f7b531;
 	color:#fff;
+}
+#alerts_panel .panel{
+	background-color:#ffbb33;
+	color:#fff;
+}
+#alerts_panel .list-group-item {
+	background-color:#ffbb33;
+	
+	border-color:#fff;
 }
 #links_panel .panel-heading {
 	background-color:#00164A;
-	color:#fff
+	
+}
+#alerts_panel .list-group-item > a {
+	color:#fff;
 }
 #first_panel {
 	height:200px;
@@ -79,7 +103,7 @@
 	height: 24em;
 	margin: 1em auto;
 	overflow: hidden;
-	background: white;
+	background: #ffbb33;
 	position: relative;
 	box-sizing: border-box;
 }
@@ -103,7 +127,6 @@
 
 .vertical_marquee .marquee {
 	margin: 0;
-	padding: 0 1em;
 	line-height: 1.5em;
 }
 
@@ -127,9 +150,13 @@
 	top: 0;
 }
 
-
-
 .panel {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12) !important;
+	box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12) !important;
+	border:0;
+}
+
+.panel_overflow {
 	height: 100%;
 	max-height: 440px;
 	overflow-y: scroll;
@@ -251,10 +278,10 @@ $(document).ready(function() {
 				<li><a href="./">Home</a></li>	
 				<li><a href="VC.php">Vice Chancellor</a></li>
 				<li><a href="Contact_Us.php" onclick="">Contact Us</a></li>
-				<li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
-				<li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
-				<li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
-				<li class="last"><a href="#"><i class="fa fa-google-plus-square"></i></a></li>
+				<li><a href="#"><i id="fb" class="fa fa-facebook-square"></i></a></li>
+				<li><a href="#"><i id="tw" class="fa fa-twitter-square"></i></a></li>
+				<li><a href="#"><i id="ln" class="fa fa-linkedin-square"></i></a></li>
+				<li class="last"><a  href="#"><i id="gp" class="fa fa-google-plus-square"></i></a></li>
 			<!-- Set Search box -->  
 		  	</ul> 
 		   </div> 
@@ -696,7 +723,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 	<div class="row">
 		<div class="col-md-4">
 
-			<div id="events_panel" class="panel panel-default">
+			<div id="events_panel" class="panel panel-default panel_overflow">
 				<!-- Default panel contents -->
 				<div class="panel-heading">
 					<h3 class="panel-title">Events/Updates</h3>
@@ -743,7 +770,7 @@ margin-top:10px;width: 99%;margin-left: 9px;
 		</div>
 		<div class="col-md-4">
 
-			<div id="links_panel" class="panel panel-default">
+			<div id="links_panel" class="panel panel-default panel_overflow">
 				<!-- Default panel contents -->
 				<div class="panel-heading">
 					<h3 class="panel-title">Important Links</h3>
