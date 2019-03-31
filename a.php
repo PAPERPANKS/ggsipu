@@ -26,6 +26,9 @@
 <script type="text/javascript" src="./style/scripts/contact_us.js"></script>
 
 <style>
+body{
+	background: rgba(252,252,252,0.3) !important;
+}
 .custom-btn{
 	border-radius:10px;
 	
