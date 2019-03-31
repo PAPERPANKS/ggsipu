@@ -219,7 +219,13 @@ body{
 	font-size: 14px;
 	color: #041e54;
 }
+#footer_utility{
+	float:none;
+}
 
+#footer_utility #utility{
+	text-align:center;
+}
 </style>
 
 <!--
