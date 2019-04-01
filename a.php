@@ -38,7 +38,11 @@ body{
 	font-size: 12px;
 	display: inline-block;
 }
-
+#student_ach .list-group-item  {
+	background-color:#000E2B;
+	border-color:#fff;
+	color:#fff;
+}
 #utility_top {
 	width: 100% !important;
 }
@@ -61,50 +65,50 @@ body{
 }
 
 #alerts_panel .panel-heading {
-	background-color:#f7b531;
+	background-color:#036e98;
 	color:#fff;
 }
 #alerts_panel .panel{
-	background-color:#ffbb33;
+	background-color:#048abf;
 	color:#fff;
 }
 #alerts_panel .list-group-item {
-	background-color:#ffbb33;
+	background-color:#048abf;
 	
 	border-color:#fff;
 }
 
 #events_panel .panel-heading {
-	background-color:#00c24e;
+	background-color:#037d98;
 	color:#fff;
 }
 #events_panel .panel{
-	background-color:#00c851;
+	background-color:#049dbf;
 	color:#fff;
 }
 #events_panel .list-group-item {
-	background-color:#00c851;
+	background-color:#049dbf;
 	border-color:#fff;
 }
 #events_panel .panel-footer .custom-btn{
-	background-color:#00c851 !important;
+	background-color:#049dbf !important;
 }
 
 
 #links_panel .panel-heading {
-	background-color:#31afde;
+	background-color:#024884;
 	color:#fff;
 }
 #links_panel .panel{
-	background-color:#33b5e5;
+	background-color:#035aa6;
 	color:#fff;
 }
 #links_panel .list-group-item {
-	background-color:#33b5e5;
+	background-color:#035aa6;
 	border-color:#fff;
 }
 #links_panel .panel-footer .custom-btn{
-	background-color:#33b5e5 !important;
+	background-color:#035aa6 !important;
 }
 
 #events_panel .list-group-item > a {
@@ -129,6 +133,7 @@ body{
   to {opacity: 0.0;}
 }
 .blink_text{
+	margin: auto;
 	text-align: center;
 	text-decoration: blink;
 	-webkit-animation-name: blinker;
@@ -150,7 +155,7 @@ body{
 	height: 24em;
 	margin: 1em auto;
 	overflow: hidden;
-	background: #ffbb33;
+	background: #048abf;
 	position: relative;
 	box-sizing: border-box;
 }
@@ -225,6 +230,12 @@ body{
 
 #footer_utility #utility{
 	text-align:center;
+}
+.carousel-inner {
+	margin:auto;
+	margin-top:20px;
+	width:100% !important;
+	max-width:600px !important;
 }
 </style>
 
@@ -632,123 +643,132 @@ display:none;
 	
 
 }
-<!--	
-@media screen and (max-width: 767px) and (min-width: 600px){
-#front_right_column{
-width:576px;
-}
-#alert-box{
-margin-top:10px;width: 99%;margin-left: 9px;
-}	
-}-->
+
 </style>
 
-<div class="container-fluid" style="padding:0; margin:auto;">
-	<div class="container-fluid">
-<div class="col-md-9 col-xs-12 col-md-offset-1">
-	<!-- Carousel
-	================================================== -->
-	<div id="myCarousel" class="carousel slide" data-ride="carousel">
-	  <!-- Indicators -->
-	  <ol class="carousel-indicators capnone">
-		<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-		<li data-target="#myCarousel" data-slide-to="1"></li>
-		<li data-target="#myCarousel" data-slide-to="2"></li>
-		<li data-target="#myCarousel" data-slide-to="3"></li>
-		<li data-target="#myCarousel" data-slide-to="4"></li>
-		<li data-target="#myCarousel" data-slide-to="5"></li>
+<div class="container">
+	<div class="row">
+		<div class="col-md-6 col-xs-12 ">
+			<!-- Carousel====================== -->
+			<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- <ol class="carousel-indicators capnone">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+					<li data-target="#myCarousel" data-slide-to="3"></li>
+					<li data-target="#myCarousel" data-slide-to="4"></li>
+					<li data-target="#myCarousel" data-slide-to="5"></li>
+				</ol> -->
+				<div class="carousel-inner" role="listbox">
+					<div class="item active">
+						<img class="first-slide" src="data0/images/1.JPG" alt="First slide" >
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="second-slide" src="data0/images/2.JPG" alt="Second slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="third-slide" src="data0/images/3.jpg" alt="Third slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="third-slide" src="data0/images/4.JPG" alt="fourth slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="third-slide" src="data0/images/5.JPG" alt="fifth slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="third-slide" src="data0/images/6.JPG" alt="sisth slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>
+					<div class="item">
+						<img class="third-slide" src="data0/images/7.jpg" alt="seventh slide">
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>
+							</div>
+						</div>
+					</div>
+					
+					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+						<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+						<span class="sr-only">Previous</span>
+					</a>
+					<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+						<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+						<span class="sr-only">Next</span>
+					</a>
+				</div><!-- /.carousel inner-->
+			</div>
+			<br/>
+			<div class="blink_text">
+				<span>&#10031;</span>
+				<a href='/Pubinfo2019/circ10039260219.pdf'><b>Notice - Admission for the Academic Session 2019-20</b></a> 
+			</div>
+		</div>
 
-	  </ol>
-	  <div class="carousel-inner" role="listbox">
-		<div class="item active">
-		  <img class="first-slide" src="data0/images/1.JPG" alt="First slide" style="width:100%; height:auto;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			  
+		<div class="col-md-6 col-xs-12 ">
+			<!-- Carousel====================== -->
+			<div id="#" class="##">
+				
+				<div class="carousel-inner">
+					<div class="item active">
+						<img class="first-slide" src="https://mobirise.com/bootstrap-carousel/assets2/images/ksenia-makagonova-229007-2000x1333.jpg" alt="First slide" >
+						<div class="container capnone">
+							<div class="carousel-caption">
+							<h1></h1>					
+							</div>
+						</div>
+					</div>					
+				</div><!-- /.carousel inner-->
+				<div id="student_ach"class="list-group" style="margin-top:20px">
+					<a href="#" class="list-group-item ">achievement item</a>
+					<a href="#" class="list-group-item">achievement item</a>
+					<a href="#" class="list-group-item">achievement item</a>
+				</div> 
 			</div>
-		  </div>
+			
 		</div>
-		<div class="item">
-		  <img class="second-slide" src="data0/images/2.JPG" alt="Second slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			  
-			</div>
-		  </div>
-		</div>
-		<div class="item">
-		  <img class="third-slide" src="data0/images/3.jpg" alt="Third slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			 
-			</div>
-		  </div>
-		</div>
-		  <div class="item">
-		  <img class="third-slide" src="data0/images/4.JPG" alt="Third slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			 
-			</div>
-		  </div>
-		</div>
-		  <div class="item">
-		  <img class="third-slide" src="data0/images/5.JPG" alt="Third slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			 
-			</div>
-		  </div>
-		</div>
-		  <div class="item">
-		  <img class="third-slide" src="data0/images/6.JPG" alt="Third slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			 
-			</div>
-		  </div>
-		  </div>
-		   <div class="item">
-		  <img class="third-slide" src="data0/images/7.jpg" alt="Third slide" style="width:950; height:400;">
-		  <div class="container capnone">
-			<div class="carousel-caption">
-			  <h1></h1>
-			 
-			</div>
-		  </div>
-		  </div>
-		  
-	  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-		<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-		<span class="sr-only">Previous</span>
-	  </a>
-	  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-		<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-		<span class="sr-only">Next</span>
-	  </a>
-	</div><!-- /.carousel -->
-	</div>
-		</div>
-</div>
-<br>
+	</div> 	
 
-<div class="blink_text">
+<!-- <div class="blink_text">
 	<span>&#10031;</span>
 	<a href='/Pubinfo2019/circ10039260219.pdf'><b>Notice - Admission for the Academic Session 2019-20</b></a> 
-</div>
+</div> -->
 
 <br/>
 
 <div class="container">
 
 	<div class="row">
-		<div class="col-md-6 col-md-offset-3">
+		<div class="col-md-8 col-md-offset-2 ">
 
 			<div id="first_panel" class="panel panel-default">
 				<!-- Default panel contents -->
