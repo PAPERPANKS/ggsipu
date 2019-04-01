@@ -749,9 +749,9 @@ display:none;
 					</div>					
 				</div><!-- /.carousel inner-->
 				<div id="student_ach"class="list-group" style="margin-top:20px">
-					<a href="#" class="list-group-item ">achievement item</a>
-					<a href="#" class="list-group-item">achievement item</a>
-					<a href="#" class="list-group-item">achievement item</a>
+					<a href="#" class="list-group-item ">achievement description one</a>
+					<a href="#" class="list-group-item">achievement desc two</a>
+					<a href="#" class="list-group-item">achievement dedc three</a>
 				</div> 
 			</div>
 			
