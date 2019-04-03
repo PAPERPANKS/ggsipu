@@ -558,7 +558,7 @@
 						</ol> -->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img class="first-slide" src="data0/images/1.JPG" alt="First slide" >
+								<img class="first-slide" src="./data0/images/1.JPG" alt="First slide" >
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -566,7 +566,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="second-slide" src="data0/images/2.JPG" alt="Second slide">
+								<img class="second-slide" src="./data0/images/2.JPG" alt="Second slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -574,7 +574,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="third-slide" src="data0/images/3.jpg" alt="Third slide">
+								<img class="third-slide" src="./data0/images/3.jpg" alt="Third slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -582,7 +582,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="third-slide" src="data0/images/4.JPG" alt="fourth slide">
+								<img class="third-slide" src="./data0/images/4.JPG" alt="fourth slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -590,7 +590,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="third-slide" src="data0/images/5.JPG" alt="fifth slide">
+								<img class="third-slide" src="./data0/images/5.JPG" alt="fifth slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -598,7 +598,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="third-slide" src="data0/images/6.JPG" alt="sisth slide">
+								<img class="third-slide" src="./data0/images/6.JPG" alt="sisth slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
@@ -606,7 +606,7 @@
 								</div>
 							</div>
 							<div class="item">
-								<img class="third-slide" src="data0/images/7.jpg" alt="seventh slide">
+								<img class="third-slide" src="./data0/images/7.jpg" alt="seventh slide">
 								<div class="container capnone">
 									<div class="carousel-caption">
 										<h1></h1>
