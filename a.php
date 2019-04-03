@@ -38,6 +38,10 @@
 			border-color:#fff;
 			color:#fff;
 			border-radius:0%;
+			cursor: pointer;
+			}
+			#student_ach .active{
+				color: #E9573F;
 			}
 			#utility_top {
 			width: 100% !important;
@@ -550,7 +554,8 @@
 							<li data-target="#myCarousel" data-slide-to="3"></li>
 							<li data-target="#myCarousel" data-slide-to="4"></li>
 							<li data-target="#myCarousel" data-slide-to="5"></li>
-							</ol> -->
+							<li data-target="#myCarousel" data-slide-to="6"></li>
+						</ol> -->
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<img class="first-slide" src="data0/images/1.JPG" alt="First slide" >
@@ -627,22 +632,24 @@
 				</div>
 				<div class="col-md-6 col-xs-12 ">
 					<!-- Carousel====================== -->
-					<div id="#" class="##">
-						<div class="carousel-inner">
+					<div id="studentCarousel" class="carousel" >
+						<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img class="first-slide" src="https://mobirise.com/bootstrap-carousel/assets2/images/ksenia-makagonova-229007-2000x1333.jpg" alt="First slide" >
-								<div class="container capnone">
-									<div class="carousel-caption">
-										<h1></h1>
-									</div>
-								</div>
+								<img class="first-slide" src="data0/student_ach/student1.jpg" alt="First slide" >								
 							</div>
+
+							<div class="item">
+								<img class="second-slide" src="data0/student_ach/student2.jpg" alt="Second slide">								
+							</div>
+							<!-- <div class="item">
+								<img class="third-slide" src="data0/images/3.jpg" alt="Third slide">								
+							</div> -->
 						</div>
 						<!-- /.carousel inner-->
-						<div id="student_ach"class="list-group" style="margin-top:8px">
-							<a href="#" class="list-group-item ">achievement description one</a>
-							<a href="#" class="list-group-item">achievement desc two</a>
-							<a href="#" class="list-group-item">achievement dedc three</a>
+						<div id="student_ach" class="list-group" style="margin-top:8px">
+							<li class="list-group-item" data-target="#studentCarousel" data-slide-to="0">Industrial Training visit by B.Tech 6th Sem students to Amazing Training Pvt Ltd</li>
+							<li class="list-group-item" data-target="#studentCarousel" data-slide-to="1">ACM-USI,C&T organised tech talk by Prof. József Dombi, (Hungarian Academy of Sciences & University of Szeged)</li>
+							<!-- <li class="list-group-item" data-target="#studentCarousel" data-slide-to="2">achievement dedc three</li> -->
 						</div>
 					</div>
 				</div>
