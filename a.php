@@ -43,6 +43,10 @@
 			#student_ach .active{
 				color: #E9573F;
 			}
+			#studentCarousel img {
+				height: 100%;
+				max-height: 400px;
+			}
 			#utility_top {
 			width: 100% !important;
 			}
@@ -624,7 +628,7 @@
 						</div>
 						<!-- /.carousel inner-->
 						<div id="student_ach" class="list-group" style="margin-top:8px">
-							<li class="list-group-item">Heading one</li>
+							<li class="list-group-item">GGSIPU Gallery</li>
 						</div>
 					</div>
 					<br/>
@@ -650,7 +654,7 @@
 						</div>
 						<!-- /.carousel inner-->
 						<div id="student_ach" class="list-group" style="margin-top:8px">
-							<li class="list-group-item">HEADING TWO</li>
+							<li class="list-group-item">Student Gallery</li>
 						</div>
 					</div>
 				</div>
