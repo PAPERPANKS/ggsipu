@@ -623,12 +623,15 @@
 							</a>
 						</div>
 						<!-- /.carousel inner-->
+						<div id="student_ach" class="list-group" style="margin-top:8px">
+							<li class="list-group-item">Heading one</li>
+						</div>
 					</div>
 					<br/>
-					<div class="blink_text">
+					<!--<div class="blink_text">
 						<span>&#10031;</span>
 						<a href='/Pubinfo2019/circ10039260219.pdf'><b>Notice - Admission for the Academic Session 2019-20</b></a> 
-					</div>
+					</div>-->
 				</div>
 				<div class="col-md-6 col-xs-12 ">
 					<!-- Carousel====================== -->
@@ -647,9 +650,7 @@
 						</div>
 						<!-- /.carousel inner-->
 						<div id="student_ach" class="list-group" style="margin-top:8px">
-							<li class="list-group-item" data-target="#studentCarousel" data-slide-to="0">Industrial Training visit by B.Tech 6th Sem students to Amazing Training Pvt Ltd</li>
-							<li class="list-group-item" data-target="#studentCarousel" data-slide-to="1">ACM-USI,C&T organised tech talk by Prof. József Dombi, (Hungarian Academy of Sciences & University of Szeged)</li>
-							<!-- <li class="list-group-item" data-target="#studentCarousel" data-slide-to="2">achievement dedc three</li> -->
+							<li class="list-group-item">HEADING TWO</li>
 						</div>
 					</div>
 				</div>
@@ -664,7 +665,7 @@
 					<div class="col-md-8 col-md-offset-2 ">
 						<div id="first_panel" class="panel panel-default">
 							<!-- Default panel contents -->
-							<div class="panel-heading">
+							<div class="panel-heading blink_text">
 								<h3 class="panel-title">Admission 2019</h3>
 							</div>
 							<!-- List group -->
