@@ -43,10 +43,6 @@
 			#student_ach .active{
 				color: #E9573F;
 			}
-			#studentCarousel img {
-				height: 100%;
-				max-height: 400px;
-			}
 			#utility_top {
 			width: 100% !important;
 			}
@@ -119,8 +115,15 @@
 			color:#fff;
 			}
 			#first_panel {
-			height:200px;
+			height:100%;
+			max-height:240px;
+			overflow-y: scroll;
 			}
+			#first_panel .panel-title {
+				color:#00164a;
+				font-weight:700; 
+			}
+
 			.panel-footer{
 			background-color: transparent !important;
 			}
@@ -550,16 +553,7 @@
 			<div class="row">
 				<div class="col-md-6 col-xs-12 ">
 					<!-- Carousel====================== -->
-					<div id="myCarousel" class="carousel slide" data-ride="carousel">
-						<!-- <ol class="carousel-indicators capnone">
-							<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-							<li data-target="#myCarousel" data-slide-to="1"></li>
-							<li data-target="#myCarousel" data-slide-to="2"></li>
-							<li data-target="#myCarousel" data-slide-to="3"></li>
-							<li data-target="#myCarousel" data-slide-to="4"></li>
-							<li data-target="#myCarousel" data-slide-to="5"></li>
-							<li data-target="#myCarousel" data-slide-to="6"></li>
-						</ol> -->
+					<div id="myCarousel" class="carousel slide" data-ride="carousel">						
 						<div class="carousel-inner" role="listbox">
 							<div class="item active">
 								<img class="first-slide" src="./data0/images/1.JPG" alt="First slide" >
@@ -639,18 +633,32 @@
 				</div>
 				<div class="col-md-6 col-xs-12 ">
 					<!-- Carousel====================== -->
-					<div id="studentCarousel" class="carousel" >
-						<div class="carousel-inner" role="listbox">
+					<div id="studentCarousel" class="carousel slide" data-ride="carousel">
+					<div class="carousel-inner" role="listbox">
 							<div class="item active">
-								<img class="first-slide" src="data0/student_ach/student1.jpg" alt="First slide" >								
+								<img class="first-slide" src="./data0/student_ach/student1.jpg" alt="First slide" >
+								<div class="container capnone">
+									<div class="carousel-caption">
+										<h1></h1>
+									</div>
+								</div>
 							</div>
-
 							<div class="item">
-								<img class="second-slide" src="data0/student_ach/student2.jpg" alt="Second slide">								
-							</div>
-							<!-- <div class="item">
-								<img class="third-slide" src="data0/images/3.jpg" alt="Third slide">								
-							</div> -->
+								<img class="second-slide" src="./data0/student_ach/student2.jpg" alt="Second slide">
+								<div class="container capnone">
+									<div class="carousel-caption">
+										<h1></h1>
+									</div>
+								</div>
+							</div>							
+							<a class="left carousel-control" href="#studentCarousel" role="button" data-slide="prev">
+							<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+							<span class="sr-only">Previous</span>
+							</a>
+							<a class="right carousel-control" href="#studentCarousel" role="button" data-slide="next">
+							<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+							<span class="sr-only">Next</span>
+							</a>
 						</div>
 						<!-- /.carousel inner-->
 						<div id="student_ach" class="list-group" style="margin-top:8px">
@@ -659,10 +667,7 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class="blink_text">
-				<span>&#10031;</span>
-				<a href='/Pubinfo2019/circ10039260219.pdf'><b>Notice - Admission for the Academic Session 2019-20</b></a> 
-				</div> -->
+			
 			<br/>
 			<div class="container">
 				<div class="row">
@@ -670,14 +675,19 @@
 						<div id="first_panel" class="panel panel-default">
 							<!-- Default panel contents -->
 							<div class="panel-heading blink_text">
-								<h3 class="panel-title">Admission 2019</h3>
+								
+								<h3 class="panel-title"><span>&#10031;</span>Admission 2019</h3>
 							</div>
 							<!-- List group -->
 							<ul class="list-group">
 								<li class="list-group-item"><a href="http://www.ipu.ac.in/Pubinfo2019/Admission2019mian/adm2019main.htm">Admission Brochures 2019</a></li>
-								<li class="list-group-item"><a href="https://cdn.digialm.com/EForms/configuredHtml/850/55035/application.html">Apply Online</a></li>
+								<!-- <li class="list-group-item"><a href="https://cdn.digialm.com/EForms/configuredHtml/850/55035/application.html">Apply Online</a></li> -->
+								<li class="list-group-item"><a href="http://www.ipu.ac.in/Pubinfo2019/Admission2019mian/adm2019notices/pgmccounsellingmain.htm">PGMC Notices</a></li>
+								<li class="list-group-item"><a href="http://www.ipu.ac.in/Pubinfo2019/Admission2019mian/adm2019notices/ntpgmcev030419.pdf">Schedule of 1st counselling of PGMC 2019-20</a></li>
 							</ul>
-							<div class="panel-footer"> <a class="custom-btn" href="https://cdn.digialm.com/EForms/configuredHtml/850/55035/application.html">APPLY ONLINE »</a> </div>
+							<div class="panel-footer"> 
+								<a class="custom-btn" href="https://cdn.digialm.com/EForms/configuredHtml/850/55035/application.html">APPLY ONLINE »</a>
+							</div>
 						</div>
 					</div>
 				</div>
